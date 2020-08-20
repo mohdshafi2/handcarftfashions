@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ColumbiaSansWDisp';
+  src: url('ColumbiaSansWDisp.woff2') format('woff2'),
+      url('ColumbiaSansWDisp.woff') format('woff'),
+      url('ColumbiaSansWDisp.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  src: url('NHaasGroteskTXStd-55Rg.woff2') format('woff2'),
+        url('NHaasGroteskTXStd-55Rg.woff') format('woff'),
+        url('NHaasGroteskTXStd-55Rg.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
