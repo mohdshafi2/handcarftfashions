@@ -2052,25 +2052,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _src_component_Layout_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/component/Layout/Layout */ "./src/component/Layout/Layout.js");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _src_component_ProductCard_productCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/component/ProductCard/productCard */ "./src/component/ProductCard/productCard.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_absolute_url__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next-absolute-url */ "next-absolute-url");
-/* harmony import */ var next_absolute_url__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_absolute_url__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _src_component_CardOne_cardOne__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/component/CardOne/cardOne */ "./src/component/CardOne/cardOne.js");
+/* harmony import */ var _src_component_CardTwo_cardTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/component/CardTwo/cardTwo */ "./src/component/CardTwo/cardTwo.js");
+/* harmony import */ var _src_component_ProductSlider_productSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/component/ProductSlider/productSlider */ "./src/component/ProductSlider/productSlider.js");
 var _jsxFileName = "/Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
 
 
 
@@ -2083,7 +2069,7 @@ const Home = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 9,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -2091,124 +2077,605 @@ const Home = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 10,
       columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "intro_txt",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
     }
   }, __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
+      lineNumber: 13,
+      columnNumber: 13
     }
-  }, "Farmer Product"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/",
+  }, "Welcome Farmer Product"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 9
+      lineNumber: 14,
+      columnNumber: 13
     }
-  }, __jsx("a", {
+  }, "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.")))), __jsx("main", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 24
+      lineNumber: 18,
+      columnNumber: 7
     }
-  }, "Home"))), __jsx("main", {
-    className: "Product",
+  }, __jsx(_src_component_CardOne_cardOne__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 7
+      columnNumber: 9
     }
-  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), __jsx(_src_component_ProductSlider_productSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
       columnNumber: 9
     }
-  }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }), __jsx(_src_component_CardTwo_cardTwo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
+      columnNumber: 9
+    }
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./src/component/CardOne/cardOne.js":
+/*!******************************************!*\
+  !*** ./src/component/CardOne/cardOne.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _cardOne_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cardOne.scss */ "./src/component/CardOne/cardOne.scss");
+/* harmony import */ var _cardOne_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cardOne_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Card */ "react-bootstrap/Card");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/src/component/CardOne/cardOne.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+const CardOne = () => {
+  return __jsx("div", {
+    className: "cardOne",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
       columnNumber: 11
     }
-  }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    xs: 12,
-    md: 12,
+  }, __jsx("h2", {
+    className: "thems",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 15
+    }
+  }, "Trending Fashions"), __jsx("ul", {
+    className: "grid__list",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 15
+      columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "productPan",
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 17
+      columnNumber: 21
     }
-  }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+    alt: "Card image",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 19
+      columnNumber: 25
     }
-  }, props.products.map((product, index) => __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    xs: 12,
-    sm: 6,
-    md: 4,
-    lg: 3,
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 21
+      columnNumber: 29
     }
-  }, __jsx(_src_component_ProductCard_productCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    key: `product-${index}`,
-    img: product.img,
-    title: product.title,
-    id: product.id,
-    price: product.price,
-    offer: product.offer,
-    progress: product.progress,
-    claimed: product.claimed,
-    endTime: product.endTime,
-    delivery: product.delivery,
+  }, "Half Sarees")))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 23
+      lineNumber: 30,
+      columnNumber: 17
     }
-  }))))))))));
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))))));
 };
 
-Home.getInitialProps = async ({
-  req
-}) => {
-  const {
-    protocol,
-    host
-  } = next_absolute_url__WEBPACK_IMPORTED_MODULE_7___default()(req);
-  const apiURL = `${protocol}//${host}`;
-  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8___default()('https://raw.githubusercontent.com/mohdshafi2/JSON/master/products');
-  const data = await res.json();
-  return {
-    products: data
-  };
+/* harmony default export */ __webpack_exports__["default"] = (CardOne);
+
+/***/ }),
+
+/***/ "./src/component/CardOne/cardOne.scss":
+/*!********************************************!*\
+  !*** ./src/component/CardOne/cardOne.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/component/CardTwo/CardTwo.scss":
+/*!********************************************!*\
+  !*** ./src/component/CardTwo/CardTwo.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/component/CardTwo/cardTwo.js":
+/*!******************************************!*\
+  !*** ./src/component/CardTwo/cardTwo.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CardTwo_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CardTwo.scss */ "./src/component/CardTwo/CardTwo.scss");
+/* harmony import */ var _CardTwo_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CardTwo_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Card */ "react-bootstrap/Card");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/src/component/CardTwo/cardTwo.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+const CardTwo = () => {
+  return __jsx("div", {
+    className: "cardTwo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  }, __jsx("h2", {
+    className: "thems",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 15
+    }
+  }, "Kids Fashions"), __jsx("ul", {
+    className: "grid__list",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Img, {
+    src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+    alt: "Card image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.ImgOverlay, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 25
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_3___default.a.Title, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 29
+    }
+  }, "Half Sarees")))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (CardTwo);
 
 /***/ }),
 
@@ -2491,9 +2958,8 @@ const Header = () => {
     }
   }, __jsx("img", {
     alt: "",
-    src: "",
-    width: "0",
-    height: "0",
+    src: "images/logo.png",
+    width: "150px",
     className: "d-inline-block align-top",
     __self: undefined,
     __source: {
@@ -2501,20 +2967,12 @@ const Header = () => {
       lineNumber: 11,
       columnNumber: 13
     }
-  }), ' ', __jsx("span", {
-    className: "d-inline-block align-top",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 13
-    }
-  }, "Farmer Connect")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
+  }), ''), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
     "aria-controls": "basic-navbar-nav",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 11
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
@@ -2522,7 +2980,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 19,
       columnNumber: 11
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
@@ -2530,7 +2988,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 20,
       columnNumber: 13
     }
   }, __jsx("ul", {
@@ -2538,14 +2996,14 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 21,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 22,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2554,21 +3012,21 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 59
     }
-  }, "Product"))), __jsx("li", {
+  }, "Home"))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 25,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2577,40 +3035,40 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 64
     }
   }, "About us"))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     activeClassName: "active",
-    href: "/login-register",
+    href: "/contact",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 29,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 73
+      lineNumber: 29,
+      columnNumber: 66
     }
-  }, "Login/Signup"))))))));
+  }, "Contact"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -2723,262 +3181,333 @@ const Layout = props => {
 
 /***/ }),
 
-/***/ "./src/component/ProductCard/productCard.js":
-/*!**************************************************!*\
-  !*** ./src/component/ProductCard/productCard.js ***!
-  \**************************************************/
+/***/ "./src/component/ProductSlider/productSlider.js":
+/*!******************************************************!*\
+  !*** ./src/component/ProductSlider/productSlider.js ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProductSlider; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _productCard_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./productCard.scss */ "./src/component/ProductCard/productCard.scss");
-/* harmony import */ var _productCard_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_productCard_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Card */ "react-bootstrap/Card");
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Button */ "react-bootstrap/Button");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_bootstrap_ProgressBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/ProgressBar */ "react-bootstrap/ProgressBar");
-/* harmony import */ var react_bootstrap_ProgressBar__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_ProgressBar__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/InputGroup */ "react-bootstrap/InputGroup");
-/* harmony import */ var react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_bootstrap_FormControl__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/FormControl */ "react-bootstrap/FormControl");
-/* harmony import */ var react_bootstrap_FormControl__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_FormControl__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_10__);
-var _jsxFileName = "/Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/src/component/ProductCard/productCard.js";
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _productSlider_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./productSlider.scss */ "./src/component/ProductSlider/productSlider.scss");
+/* harmony import */ var _productSlider_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_productSlider_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/src/component/ProductSlider/productSlider.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+class ProductSlider extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      nav1: null,
+      nav2: null
+    };
+  }
 
+  componentDidMount() {
+    this.setState({
+      nav1: this.slider1,
+      nav2: this.slider2
+    });
+  }
 
+  render() {
+    return __jsx("div", {
+      className: "productSlider",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 7
+      }
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 11
+      }
+    }, __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 13
+      }
+    }, "Designer Gallery"), __jsx("div", {
+      className: "productSlider__main",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 13
+      }
+    }, __jsx("div", {
+      className: "productSlider__top",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 13
+      }
+    }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      fade: true,
+      asNavFor: this.state.nav2,
+      ref: slider => this.slider1 = slider,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 17
+      }
+    }, __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 17
+      }
+    })), __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 17
+      }
+    })), __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 17
+      }
+    })), __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 17
+      }
+    })), __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 17
+      }
+    })), __jsx("div", {
+      className: "topList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 17
+      }
+    })))), __jsx("div", {
+      className: "productSlider__bottom",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 13
+      }
+    }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      asNavFor: this.state.nav1,
+      ref: slider => this.slider2 = slider,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      swipeToSlide: true,
+      focusOnSelect: true,
+      dots: true,
+      arrows: false,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 17
+      }
+    }, __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "bottomList",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 80,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81,
+        columnNumber: 21
+      }
+    })))))));
+  }
 
-
-
-
-
-
-const ProductCard = props => {
-  return __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    href: "/product/[id]",
-    as: `/product/${props.id}`,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  }, __jsx("figure", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Img, {
-    variant: "top",
-    src: props.img,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 15
-    }
-  })))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Body, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "price-tag",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 11
-    }
-  }, props.price, " ", __jsx("del", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 52
-    }
-  }, props.offer)), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    href: "/product/[id]",
-    as: `/product/${props.id}`,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 11
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Title, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 15
-    }
-  }, props.title))), __jsx(react_bootstrap_ProgressBar__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    now: props.progress,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
-    }
-  }), __jsx("div", {
-    className: "status",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 11
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
-    }
-  }, props.claimed), __jsx("small", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 13
-    }
-  }, props.endTime)), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 11
-    }
-  }, "Delivery Expert  ", __jsx("span", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 31
-    }
-  }, props.delivery)), __jsx("div", {
-    className: "tail",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 11
-    }
-  }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 15
-    }
-  }, __jsx(react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    size: "xs",
-    className: "qty",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 17
-    }
-  }, __jsx(react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7___default.a.Prepend, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 19
-    }
-  }, __jsx(react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
-    id: "inputGroup-sizing-sm",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 21
-    }
-  }, "Qty")), __jsx(react_bootstrap_FormControl__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    "aria-label": "Qty",
-    "aria-describedby": "inputGroup-sizing-xs",
-    placeholder: "1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 19
-    }
-  }))), __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 15
-    }
-  }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    variant: "primary",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 17
-    }
-  }, "Buy"))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_10__["withRouter"])(ProductCard));
+}
 
 /***/ }),
 
-/***/ "./src/component/ProductCard/productCard.scss":
-/*!****************************************************!*\
-  !*** ./src/component/ProductCard/productCard.scss ***!
-  \****************************************************/
+/***/ "./src/component/ProductSlider/productSlider.scss":
+/*!********************************************************!*\
+  !*** ./src/component/ProductSlider/productSlider.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2995,28 +3524,6 @@ const ProductCard = props => {
 
 module.exports = __webpack_require__(/*! /Users/mohammad.shafiuddin/Documents/shaFI/Projects/Other/Hand-Craft/handcarftfashions/pages/index.js */"./pages/index.js");
 
-
-/***/ }),
-
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
-
-/***/ }),
-
-/***/ "next-absolute-url":
-/*!************************************!*\
-  !*** external "next-absolute-url" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next-absolute-url");
 
 /***/ }),
 
@@ -3086,17 +3593,6 @@ module.exports = require("react-bootstrap");
 
 /***/ }),
 
-/***/ "react-bootstrap/Button":
-/*!*****************************************!*\
-  !*** external "react-bootstrap/Button" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Button");
-
-/***/ }),
-
 /***/ "react-bootstrap/Card":
 /*!***************************************!*\
   !*** external "react-bootstrap/Card" ***!
@@ -3108,69 +3604,14 @@ module.exports = require("react-bootstrap/Card");
 
 /***/ }),
 
-/***/ "react-bootstrap/Col":
-/*!**************************************!*\
-  !*** external "react-bootstrap/Col" ***!
-  \**************************************/
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-bootstrap/Col");
-
-/***/ }),
-
-/***/ "react-bootstrap/Container":
-/*!********************************************!*\
-  !*** external "react-bootstrap/Container" ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Container");
-
-/***/ }),
-
-/***/ "react-bootstrap/FormControl":
-/*!**********************************************!*\
-  !*** external "react-bootstrap/FormControl" ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/FormControl");
-
-/***/ }),
-
-/***/ "react-bootstrap/InputGroup":
-/*!*********************************************!*\
-  !*** external "react-bootstrap/InputGroup" ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/InputGroup");
-
-/***/ }),
-
-/***/ "react-bootstrap/ProgressBar":
-/*!**********************************************!*\
-  !*** external "react-bootstrap/ProgressBar" ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/ProgressBar");
-
-/***/ }),
-
-/***/ "react-bootstrap/Row":
-/*!**************************************!*\
-  !*** external "react-bootstrap/Row" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Row");
+module.exports = require("react-slick");
 
 /***/ }),
 

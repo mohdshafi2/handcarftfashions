@@ -20642,9 +20642,8 @@ var Header = function Header() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "",
-    width: "0",
-    height: "0",
+    src: "images/logo.png",
+    width: "150px",
     className: "d-inline-block align-top",
     __self: _this,
     __source: {
@@ -20652,20 +20651,12 @@ var Header = function Header() {
       lineNumber: 11,
       columnNumber: 13
     }
-  }), ' ', __jsx("span", {
-    className: "d-inline-block align-top",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 13
-    }
-  }, "Farmer Connect")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
+  }), ''), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
     "aria-controls": "basic-navbar-nav",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 11
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
@@ -20673,7 +20664,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 19,
       columnNumber: 11
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
@@ -20681,7 +20672,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 20,
       columnNumber: 13
     }
   }, __jsx("ul", {
@@ -20689,14 +20680,14 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 21,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 22,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -20705,21 +20696,21 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 59
     }
-  }, "Product"))), __jsx("li", {
+  }, "Home"))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 25,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -20728,40 +20719,40 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 64
     }
   }, "About us"))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
       columnNumber: 17
     }
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     activeClassName: "active",
-    href: "/login-register",
+    href: "/contact",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 29,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 73
+      lineNumber: 29,
+      columnNumber: 66
     }
-  }, "Login/Signup"))))))));
+  }, "Contact"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -20865,7 +20856,7 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 9:
 /*!***********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fmohammad.shafiuddin%2FDocuments%2FshaFI%2FProjects%2FOther%2FHand-Craft%2Fhandcarftfashions%2Fpages%2Fabout.js ***!
   \***********************************************************************************************************************************************************************************************/
@@ -20888,5 +20879,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map
