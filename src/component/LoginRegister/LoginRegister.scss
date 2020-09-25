@@ -1,0 +1,80 @@
+@import "src/styles/variables";
+
+.loginTab {
+  background-image: url("/images/theams-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 60px;
+  padding: 40px 0 100px;
+  height: 100vh;
+  min-height: 600px;
+  @media (min-width: 992px) {
+    padding: 100px 0;
+  }
+  .tabMain {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    .nav-tabs {
+      border-bottom: 0px solid #dee2e6;
+      margin-bottom: 50px;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .nav-link {
+        background: transparent;
+        border: 1px solid transparent;
+        font-size: $size24;
+        text-transform: unset;
+        margin: 0 20px;
+        border-radius: 0px;
+        padding: 7px 7px;
+        color: $color-black;
+        font-weight: 500;
+        outline: none;
+        transition: 0.5s ease;
+        &.active {
+          border-bottom: 2px solid $color-brand1 ;
+          color: $color-brand1;
+        }
+      }
+    }
+    form {
+      .form-group {
+        margin-bottom: 30px;
+        .form-control {
+          border-radius: 0;
+          border: 0;
+          border-bottom: 1px solid #ddd;
+          outline: none;
+          background: transparent;
+          &:focus {
+            outline: none;
+            border-bottom: 1px solid $color-brand1;
+            box-shadow: 0 0 0 0;
+          }
+        }
+      }
+      p {
+        color: $color-brand1;
+        font-size: $size13;
+        margin: 5px;
+        a {
+          color: $color-brand1;
+          text-decoration: underline;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .form-check-label {
+        color: #444;
+        font-size: $size13;
+      }
+    }
+  }
+}
