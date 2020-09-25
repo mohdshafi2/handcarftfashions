@@ -1,0 +1,42 @@
+@import "src/styles/variables";
+
+
+.cardOne {
+    margin: 50px 0;
+
+    .container {
+        @media (max-width: 767px) {
+            max-width: 375px;
+        }
+    }
+
+    .card {
+        border-radius: 50px 50px 0 0;
+        overflow: hidden;
+        height: 400px;
+        border: 1px solid #ccc;
+        margin: 20px 0;
+
+        &:hover .card-img-overlay {
+            bottom: 0;
+        }
+
+        .card-title {
+            margin: 0;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        .card-img {
+            border-radius: 0;
+            min-height: 400px;
+        }
+
+        .card-img-overlay {
+            transition: 0.5s ease;
+            bottom: -200px;
+            top: inherit;
+            background-color: rgba(147, 52, 105, 0.6);
+        }
+    }
+}

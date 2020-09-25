@@ -7,6 +7,9 @@ import ProductCard from "../src/component/ProductCard/productCard";
 import Link from "next/link";
 import absoluteUrl from "next-absolute-url";
 import fetch from "isomorphic-unfetch";
+import CardOne from '../src/component/CardOne/cardOne';
+import CardTwo from '../src/component/CardTwo/cardTwo';
+import ProductSlider from '../src/component/ProductSlider/productSlider';
 
 
 const Home = (props) => {
@@ -43,6 +46,11 @@ const Home = (props) => {
           </Row>
         </Container>
       </main>
+      <main>
+        <CardOne></CardOne>
+        <ProductSlider/>
+        <CardTwo></CardTwo>
+      </main>                
     </Layout>
   )
 }
