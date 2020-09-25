@@ -1,5 +1,5 @@
 import React from 'react'
-import './CardTwo.scss'
+import './cardTwo.scss'
 import {Col, Container, Row} from "react-bootstrap";
 import Card from 'react-bootstrap/Card'
 import Link from "next/link";
