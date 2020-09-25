@@ -10,23 +10,25 @@ const Header = () => {
           <Navbar.Brand href="/">
             <img
                 alt=""
-                src="images/logo.png"
-                width="150px"
+                src=""
+                width="0"
+                height="0"
                 className="d-inline-block align-top"
-            />{''}
+            />{' '}
+            <span className="d-inline-block align-top">Farmer Connect</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <ul className="list-styled">
                 <li>
-                  <Link activeClassName='active' href='/'><a>Home</a></Link>
+                  <Link activeClassName='active' href='/'><a>Product</a></Link>
                 </li>
                 <li>
                   <Link activeClassName='active' href='/about'><a>About us</a></Link>
                 </li>
                 <li>
-                  <Link activeClassName='active' href='/contact'><a>Contact</a></Link>
+                  <Link activeClassName='active' href='/login-register'><a>Login/Signup</a></Link>
                 </li>
               </ul>
             </Nav>

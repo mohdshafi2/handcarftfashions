@@ -2,6 +2,7 @@
 
 nav {
   background-color: $color-white;
+  border-bottom: 2px solid $color-brand1;
   &.navbar {
     position: fixed;
     top: 0;
@@ -27,7 +28,7 @@ nav {
         margin: 0 15px;
         a {
           color: $color-black;
-          font-weight: 600;
+          font-weight: 400;
           text-transform: uppercase;
           font-size: $size13;
           letter-spacing: 0.5px;
