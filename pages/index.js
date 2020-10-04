@@ -3,6 +3,10 @@ import Layout from "../src/component/Layout/Layout";
 import CardOne from '../src/component/CardOne/cardOne';
 import CardTwo from '../src/component/CardTwo/cardTwo';
 import ProductSlider from '../src/component/ProductSlider/productSlider';
+import data from '../data/homePageData.json'
+
+
+const CardOnepanData = data.womens;
 
 const Home = (props) => {
   return (
@@ -16,7 +20,7 @@ const Home = (props) => {
         </div>
       </div>
       <main>
-        <CardOne></CardOne>
+        <CardOne CardOnepan={CardOnepanData} />
         <ProductSlider/>
         <CardTwo></CardTwo>
       </main>

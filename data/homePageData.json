@@ -1,0 +1,34 @@
+{
+    "womens": [
+        {
+            "title": "Trending Fashions",
+            "products": [
+                {
+                    "img": "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees"
+                },
+                {
+                    "img": "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees2"
+                },
+                {
+                    "img": "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees3"
+                },
+                {
+                    "img": "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees4"
+                },
+                {
+                    "img": "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees5"
+                }
+            ]
+        }
+    ]
+}

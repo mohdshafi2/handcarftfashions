@@ -1,6 +1,6 @@
 import React from 'react'
 import './cardTwo.scss'
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row, Button} from "react-bootstrap";
 import Card from 'react-bootstrap/Card'
 import Link from "next/link";
 
@@ -51,6 +51,7 @@ const CardTwo = () => {
                     </Card>
                 </li>
               </ul>
+              <Button href="#" variant="primary">View More</Button>
           </Container>
       </div>
   )
