@@ -7,6 +7,7 @@ import data from '../data/homePageData.json'
 
 
 const CardOnepanData = data.womens;
+const CardTwopanData = data.kids;
 
 const Home = (props) => {
   return (
@@ -14,7 +15,7 @@ const Home = (props) => {
       <div className="intro">
         <div className="container">
           <div className="intro_txt">
-            <h1>Welcome Farmer Product</h1>
+            <h1>Welcome to Handcraft Fashions</h1>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
         </div>
@@ -22,7 +23,7 @@ const Home = (props) => {
       <main>
         <CardOne CardOnepan={CardOnepanData} />
         <ProductSlider/>
-        <CardTwo></CardTwo>
+        <CardTwo CardTwopan={CardTwopanData} />
       </main>
     </Layout>
   )

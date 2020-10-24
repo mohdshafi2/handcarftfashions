@@ -8,18 +8,15 @@ import {Col, Container, Row} from "react-bootstrap";
 const About = (props) => {
   return (
       <Layout titleTag="About Us">
+        <div className="aboutus">
         <div className="intro">
-          <div className="mini-container">
-            <h1>About US</h1>
-            <Link href="/about"><a>Home / About Us</a></Link>
+        <div className="container">
+          <div className="intro_txt">
+            <h1>About Us</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
         </div>
-        <div className="intro bg-white m-0">
-          <div className="mini-container">
-            <h2>Welcome to Farmer Connect</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore gna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-          </div>
-        </div>
+      </div>
         <div className="textImg">
           <Container>
             <div className="textImgpanel">
@@ -42,20 +39,21 @@ const About = (props) => {
             </div>
           </Container>
         </div>
-        <div className="intro bg-white m-0">
+        <div className="bg-white m-0">
           <Container>
             <h2>FAQ</h2>
             <div className="faq">
               <div className="faqPanel">
-                <h4>What is Farmer Connect</h4>
+                <h4>What is Handcraft Fashions</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
               </div>
               <div className="faqPanel">
-                <h4>Why we use Farmer Connect</h4>
+                <h4>Why we use Handcraft Fashions</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
               </div>
             </div>
           </Container>
+        </div>
         </div>
       </Layout>
   )

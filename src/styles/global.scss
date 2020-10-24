@@ -123,10 +123,23 @@ p {
 	@media (min-width: 768px) {
 		min-height: 600px;
 	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		background-color: #000;
+		opacity: 0.5;
+	}
 	&.bg-white {
 		background: $color-white;
 	}
 	.intro_txt {
+		position: relative;
+		z-index: 2;
 		@media (min-width: 768px) {
 			max-width: 60%;
 		}
@@ -189,5 +202,29 @@ p {
 				width: 50%;
 			}
 		}
+	}
+}
+.womens .btn-primary,
+.kids .btn-primary {display: none;}
+
+.womens {
+	.intro {
+		background-image: url("/images/womens-theme-bg.jpg");
+		background-position: top;
+	}
+}
+.kids {
+	.intro {
+		background-image: url("/images/kids-theme-bg.jpg");
+	}
+}
+.aboutus {
+	.intro {
+		background-image: url("/images/aboutus-theme-bg.jpg");
+	}
+}
+.contact {
+	.intro {
+		background-image: url("/images/contact-theme-bg.jpg");
 	}
 }

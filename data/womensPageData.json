@@ -1,7 +1,7 @@
 {
     "womens": [
         {
-            "title": "Trending Fashions",
+            "title": "Womens Fashions",
             "products": [
                 {
                     "img": "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
@@ -31,39 +31,37 @@
                 {
                     "img": "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
                     "alt": "Card image",
-                    "pname": "Half Sarees6"
-                }
-            ]
-        }
-    ],
-    "kids": [
-        {
-            "title": "Kids Fashions",
-            "products": [
+                    "pname": "Half Sarees3"
+                },
                 {
                     "img": "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
                     "alt": "Card image",
-                    "pname": "Frog1"
+                    "pname": "Half Sarees1"
                 },
                 {
                     "img": "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
                     "alt": "Card image",
-                    "pname": "Frog2"
+                    "pname": "Half Sarees2"
                 },
                 {
                     "img": "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
                     "alt": "Card image",
-                    "pname": "Frog3"
+                    "pname": "Half Sarees3"
                 },
                 {
                     "img": "https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg",
                     "alt": "Card image",
-                    "pname": "Frog4"
+                    "pname": "Half Sarees4"
                 },
                 {
                     "img": "https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg",
                     "alt": "Card image",
-                    "pname": "Frog5"
+                    "pname": "Half Sarees5"
+                },
+                {
+                    "img": "https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg",
+                    "alt": "Card image",
+                    "pname": "Half Sarees3"
                 }
             ]
         }

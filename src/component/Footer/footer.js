@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-strip">
             <Row>
               <Col sm={12} md={6}>
-                <p>Farmer Connect © 2020 All Right Reserved.</p>
+                <p>Handcraft Fashions - India.</p>
               </Col>
               <Col sm={12} md={6}>
                 <ul className="list-styled">

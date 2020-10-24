@@ -23,16 +23,16 @@ const Header = () => {
                   <Link activeClassName='active' href='/'><a>Home</a></Link>
                 </li>
                 <li>
+                  <Link activeClassName='active' href='/womens'><a>Womens</a></Link>
+                </li>
+                <li>
+                  <Link activeClassName='active' href='/kids'><a>Kids</a></Link>
+                </li>
+                <li>
                   <Link activeClassName='active' href='/about'><a>About us</a></Link>
                 </li>
                 <li>
                   <Link activeClassName='active' href='/contact'><a>Contact</a></Link>
-                </li>
-                <li>
-                  <Link activeClassName='active' href='/trends'><a>Trends</a></Link>
-                </li>
-                <li>
-                  <Link activeClassName='active' href='/kids'><a>Kids</a></Link>
                 </li>
               </ul>
             </Nav>

@@ -30,7 +30,7 @@ const CardOne = ({CardOnepan}) => {
                                         })
                                     }
                                 </ul>
-                                <Button href="#" variant="primary">View More</Button>
+                                <Button href="/womens" variant="primary">View More</Button>
                             </Container>
                         </div>
                     )
