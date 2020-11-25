@@ -35,9 +35,8 @@ const Contact = (props) => {
                                     </span>
                                     <h4>Address</h4>
                                     <p> 
-                                    <address>
+                                    
                                         H.No: 1-4-3, Beside Municipal Offic, Mahabubabad, Telangana, 506101
-                                    </address>
                                     </p>
                                 </div>
                             </Col>
