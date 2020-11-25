@@ -32,7 +32,7 @@ const Footer = () => {
             </Row>
           </div>
           <div className="whatsapp_chat">
-          <a target="_blank" href="https://wa.me/919063511672?text=Hi,%20HandCraftFashions" className="whatsup" ><i class="icon"></i></a>
+          <a target="_blank" href="https://wa.me/919063511672?text=Hi,%20HandCraftFashions" className="whatsup" ><i className="icon"></i></a>
         </div>
         </Container>
       </footer>
