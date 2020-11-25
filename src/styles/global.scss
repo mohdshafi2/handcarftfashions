@@ -217,6 +217,23 @@ p {
 	.intro {
 		background-image: url("/images/kids-theme-bg.jpg");
 	}
+	.cardTwo {
+		.grid__list {
+			height: auto;
+			flex-direction: row;
+			li {
+				&:last-child {
+					.card {
+						height: 300px;
+
+						.card-img {
+							min-height: 300px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 .aboutus {
 	.intro {
@@ -227,4 +244,66 @@ p {
 	.intro {
 		background-image: url("/images/contact-theme-bg.jpg");
 	}
+	.contactSection {
+		padding: 50px 0;
+
+		.contactBox {
+			padding: 50px 20px 20px;
+			border-radius: 4px;
+			background-color: $color-brand2;
+			text-align: center;
+			min-height: 180px;
+			margin-bottom: 80px;
+			p {
+				margin-bottom: 0;
+			}
+		}
+
+		.visCard {
+			background-color: $color-brand2;
+			margin-bottom: 120px;
+			padding: 8px;
+			border-radius: 4px;
+			
+		}
+
+		.contactIcon {
+			background: $color-brand1;
+			color: $color-white;
+			width: 60px;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 100%;
+			position: absolute;
+			left: 10%;
+			margin: auto;
+			top: -30px;
+		}
+	}
+}
+
+.whatsapp_chat .whatsup {
+    position: fixed;
+    display: block;
+    background: #02be50;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 30px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+.whatsup .icon {
+    width: 55px;
+    height: 55px;
+    background: transparent url('/images/icon-wp.png') center no-repeat;
+    background-size: 80%;
+    display: inline-block;
 }

@@ -22,9 +22,14 @@ nav {
       padding: 0;
       list-style: none;
       display: flex;
+      flex-direction: column;
+
+      @media (min-width: 768px) { 
+        flex-direction: row;
+      }
 
       li {
-        margin: 0 15px;
+        margin: 15px;
         a {
           color: $color-black;
           font-weight: 600;

@@ -32,22 +32,22 @@ export default class ProductSlider extends Component {
             ref={slider => (this.slider1 = slider)}
             >
             <div className="topList">
-                <img src="https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg" alt="" />
+                <img src="https://picsum.photos/id/1023/1000/600" alt="" />
             </div>
             <div className="topList">
-                <img src="https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg" alt="" />
+                <img src="https://picsum.photos/id/1024/1000/600" alt="" />
             </div>
             <div className="topList">
-                <img src="https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg" alt="" />
+                <img src="https://picsum.photos/id/1025/1000/600" alt="" />
             </div>
             <div className="topList">
-                <img src="https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg" alt="" />
+                <img src="https://picsum.photos/id/1026/1000/600" alt="" />
             </div>
             <div className="topList">
-                <img src="https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg" alt="" />
+                <img src="https://picsum.photos/id/1027/1000/600" alt="" />
             </div>
             <div className="topList">
-                <img src="https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg" alt="" />
+                <img src="https://picsum.photos/id/1028/1000/600" alt="" />
             </div>
             </Slider>
             </div>
@@ -63,22 +63,22 @@ export default class ProductSlider extends Component {
                 arrows={false}
                 >
                 <div className="bottomList">
-                    <img src="https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg" alt="" />
+                    <img src="https://picsum.photos/id/1023/1000/600" alt="" />
                 </div>
                 <div className="bottomList">
-                    <img src="https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg" alt="" />
+                    <img src="https://picsum.photos/id/1024/1000/600" alt="" />
                 </div>
                 <div className="bottomList">
-                    <img src="https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg" alt="" />
+                    <img src="https://picsum.photos/id/1025/1000/600" alt="" />
                 </div>
                 <div className="bottomList">
-                    <img src="https://i.pinimg.com/736x/00/c4/28/00c4280aec233279f0c1ccdb85559661.jpg" alt="" />
+                    <img src="https://picsum.photos/id/1026/1000/600" alt="" />
                 </div>
                 <div className="bottomList">
-                    <img src="https://4.imimg.com/data4/AO/YR/MY-622474/ladies-designer-suit-500x500.jpeg" alt="" />
+                    <img src="https://picsum.photos/id/1027/1000/600" alt="" />
                 </div>
                 <div className="bottomList">
-                    <img src="https://www.aishwaryadesignstudio.com/content/images/thumbs/0070100_quintessential-mauve-designer-dress.jpeg" alt="" />
+                    <img src="https://picsum.photos/id/1028/1000/600" alt="" />
                 </div>
                 </Slider>
             </div>

@@ -4,7 +4,9 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px 0;
+  padding: 50px 0;
+  background: #1f1c28;
+  color: #a1a1af;
   width: 100%;
   p {
     margin: 5px 0;
@@ -14,21 +16,33 @@ footer {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    @media (min-width: 768px) {
-      justify-content: flex-end;
-    }
+    display: inline-block;
 
     li {
       margin: 5px;
       a {
-        color: $color-black;
+        color: #a1a1af;
         font-size: $size13;
         &:hover {
-          color: $color-brand1;
+          color: $color-white;
         }
       }
     }
+  }
+}
+
+.borl {
+  @media (min-width: 768px) {
+    border-right: 1px solid;
+  }
+}
+.text-center-lg {
+  @media (min-width: 768px) {
+    text-align: center;
+  }
+}
+.text-right-lg {
+  @media (min-width: 768px) {
+    text-align: right;
   }
 }

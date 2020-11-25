@@ -56,9 +56,9 @@
             background-color: rgba(0, 0, 0, 0.5);
             display: inline-block;
             left: 0;
-            width: 100%;
+            right: inherit;
+            width: auto;
             padding: 10px 15px;
-            max-width: 160px;
             text-align: right;
             border-radius: 0 20px 20px 0;
         }
